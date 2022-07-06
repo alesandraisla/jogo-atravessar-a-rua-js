@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(196, 210, 217);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+	grid-template-rows: 40px 54px 852px auto;
+}
+header {
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(140, 138, 138);
+}
+
+.sidewalk-up {
+    border: 3px solid rgb(40, 44, 61);
+    background-color: rgb(181, 176, 176);
+    height: 3em;
+}
+
+.sidewalk-low {
+    border: 3px solid rgb(40, 44, 61);
+    height: 3rem;
+    background-color: rgb(181, 176, 176);
+}
+
+.road {
+    grid-auto-rows:80px;
+    background-color: rgb(140, 138, 138);
+}
+
+.via {
+    height: 111px;
+}
+
+.border {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(211, 213, 211);
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
